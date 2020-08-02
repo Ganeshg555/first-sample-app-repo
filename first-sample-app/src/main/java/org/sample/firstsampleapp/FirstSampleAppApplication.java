@@ -1,0 +1,13 @@
+package org.sample.firstsampleapp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class FirstSampleAppApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(FirstSampleAppApplication.class, args);
+	}
+
+}
