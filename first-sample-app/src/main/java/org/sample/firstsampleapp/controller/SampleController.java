@@ -13,6 +13,7 @@ public class SampleController {
 		return ResponseEntity.ok("Welcome, This is My First Spring Boot Application!!!");
 	}
 	
+	//Second API
 	@GetMapping("/welcome")
 	public ResponseEntity<Object> welcome() {
 		return ResponseEntity.ok("Hello, welcome to this api");
