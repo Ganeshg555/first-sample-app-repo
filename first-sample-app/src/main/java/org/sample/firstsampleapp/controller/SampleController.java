@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SampleController {
 
 	@GetMapping
-	public ResponseEntity<?> hello() {
+	public ResponseEntity<Object> hello() {
 		return ResponseEntity.ok("Welcome, This is My First Spring Boot Application!!!");
 	}
 	
