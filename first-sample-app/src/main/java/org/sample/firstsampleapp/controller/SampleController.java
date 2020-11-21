@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SampleController {
 
+	//Fist API
 	@GetMapping
 	public ResponseEntity<Object> hello() {
 		return ResponseEntity.ok("Welcome, This is My First Spring Boot Application!!!");
