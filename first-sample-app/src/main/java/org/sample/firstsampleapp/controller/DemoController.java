@@ -9,9 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/demo")
 public class DemoController {
 
+	//Demo controller first api
 	@GetMapping
 	public ResponseEntity<Object> demo() {
 		return ResponseEntity.ok("This is demo api");
 	}
+	
+	
 	
 }
