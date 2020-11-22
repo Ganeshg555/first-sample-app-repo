@@ -14,4 +14,9 @@ public class DemoController {
 		return ResponseEntity.ok("This is demo api");
 	}
 	
+	@GetMapping("/2")
+	public ResponseEntity<Object> demo2() {
+		return ResponseEntity.ok("This is demo2 api");
+	}
+	
 }
