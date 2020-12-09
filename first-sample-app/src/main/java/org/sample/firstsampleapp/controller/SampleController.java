@@ -19,6 +19,7 @@ public class SampleController {
 		return ResponseEntity.ok("Hello, welcome to this api");
 	}
 	
+	//Third API
 	@GetMapping(value = {"/bye", "/goodbye"})
 	public ResponseEntity<Object> bye() {
 		return ResponseEntity.ok("Good bye!!!");
