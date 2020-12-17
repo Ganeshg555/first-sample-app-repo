@@ -25,6 +25,10 @@ public class SampleController {
 		return ResponseEntity.ok("Good bye!!!");
 	}
 	
+	public void masterMethod() {
+		//Method from master branch
+	}
+	
 	//comment from remote repo
 	
 }
